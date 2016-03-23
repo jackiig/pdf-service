@@ -26,4 +26,5 @@ This example will fill out the same PDF three times and concatenate them togethe
 
 Much of the inspiration for this project came from the
 [pdf-filler project](https://github.com/project-open-data/pdf-filler)
-hosted at [labs.data.gov](https://labs.data.gov/pdf-filler/).
+with a hosted version at
+[labs.data.gov](https://labs.data.gov/pdf-filler/).
