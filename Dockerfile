@@ -1,7 +1,6 @@
 FROM ruby:2.1-onbuild
 
 env PATH_TO_PDFTK /usr/bin/pdftk
-env PORT 80
 
 RUN apt-get -qq update && \
   apt-get -qqy install \
@@ -10,4 +9,4 @@ RUN apt-get -qq update && \
 
 WORKDIR "/usr/src/app"
 
-CMD ["/usr/local/bin/ruby", "app.rb"]
+CMD ["/usr/local/bin/ruby", "app.rb", "-o", "0.0.0.0"]
