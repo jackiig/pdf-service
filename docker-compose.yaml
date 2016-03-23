@@ -2,5 +2,6 @@ web:
   build: .
   environment:
     RACK_ENV: production
+    PORT: 80
   ports:
     - 80:80
